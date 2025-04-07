@@ -1,5 +1,5 @@
-# Machine-Learning
+# Scientific Machine-Learning (SciML)
 
-This repository is mostly of PINN codes for solving quantum eigenvalue problems used in my MS thesis, where we extended and redesigned the existing architecture for solving such problems. Our algorithm is unique because we can guarantee stability and is computationally efficient. 
+This repository contains codes of current state-of-the art SciML algorithms for solving quantum eigenvalue problems used in my MS thesis. Even after completing my program, the project is still ongoing as I have extended it beyond just PINN to include FNO's and self-attention matrix to obtain all eigenpair at once (rather than training a separate neural network for each eigenpair, which was still computationally expensive). I am still not there yet, as the main goal is to solve for higher dimensions where numerical techniques face significant challenges such as the curse-of-dimensionality. One major interesting aspect of this work is that we basically do not need data for the target variable (It is totally unsupervised! though, we can augment the approach with some target variable data if we want). 
 
-I will continue to update this repository as we move further in the project
+I will continue to update this repository as I move further in the project. And in the nearest future, I aim to extend it to problems in fluid dynamics with new algorithms that can capture the physics of the considered problems, in addition to ensuring robustness and reliability through theoretical guarantees.
