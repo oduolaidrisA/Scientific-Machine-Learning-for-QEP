@@ -6,4 +6,4 @@ I am still not there yet, as the main goal of this work are two things: (1) To s
 
 One major interesting aspect of this work is that we basically do not need data for the target variable (It is totally unsupervised! though, we can augment the approach with some target variable data if we want, but not necessarily). 
 
-I will continue to update this repository as I move further in the project. And in the nearest future, I aim to extend it to problems in fluid dynamics utilizing some algorithms that I will be developing, which can capture the physics of the considered problems, in addition to ensuring robustness and reliability through theoretical guarantees.
+I will continue to update this repository as I move further in the project. And in the nearest future, I aim to include problems in fluid dynamics utilizing some algorithms that I will be developing, which can capture the physics of the considered problems, in addition to ensuring robustness and reliability through theoretical guarantees.
